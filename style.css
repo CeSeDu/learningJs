@@ -1,0 +1,48 @@
+#numberOne,#numberOne2,#numberOne3,#numberOne4{
+    width: 40px;
+    height: 20px;
+}
+
+#numberTwo,#numberTwo2,#numberTwo3,#numberTwo4{
+    width: 40px;
+    height: 20px;
+}
+#sum,#sum2,#sum3,#sum4{
+    padding: 3px;
+    border: 1px solid ;
+    height: 20px;
+    background-color: white;
+}
+
+#giris{
+    border: 5px solid rgb(216, 209, 219);
+    max-width: max-content;
+    background-color: rgb(216, 209, 219);
+    display: block;
+    margin: 15px;
+
+}
+#sonuc{
+    width:40px;
+    height: 20px;
+}
+
+#hesapMakinası{
+
+    width: max-content;
+    padding: 20px;
+
+}
+
+#container{
+    width: max-content;
+    background-color:rgba(219, 212, 212, 0.393);
+    box-shadow: 10px 10px 10px 10px rgba(92, 53, 87, 0.992);
+    display: table;
+    margin: 70px auto;  
+    border: 3px solid rgba(128, 0, 128, 0.1);
+
+}
+h1{
+    text-align: center;
+}
