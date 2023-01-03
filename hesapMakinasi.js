@@ -28,6 +28,7 @@ function topla2() {
 
 }
 
+
 var num13 = document.querySelector('#numberOne3');
 var num23 = document.querySelector('#numberTwo3');
 var sum3 =  document.querySelector('#sum3');
