@@ -1,0 +1,25 @@
+#section1,#section2,#section3{
+    display: none;
+}
+h2{
+    cursor: pointer;
+    text-align: center;
+    color: purple;
+    box-shadow: 4px 4px 4px 4px rgb(63, 29, 63);
+
+}
+h2:hover{
+    color: rgb(113, 80, 113);
+}
+p{
+    color:rgb(46, 8, 46) ;
+    background-color: rgba(230, 228, 230, 0.397);
+}
+#accordion{
+    display: table;
+    margin: 100px  auto;  
+    border: 2px solid rgb(113, 80, 113);
+    width: 50%;
+    box-shadow: 10px 14px 14px 9px rgb(63, 29, 63); 
+    background-color: rgba(247, 241, 247, 0.779);
+}
