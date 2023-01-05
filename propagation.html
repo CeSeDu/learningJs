@@ -12,14 +12,32 @@
             left: 100px;
             width: 100px;
             height: 100px;
-            background-color: red;
+            background-color: purple;
+            border-radius: 20%;  
+            text-align: center;
+            text-align: center;
+            padding: 20px;
+        }
+        #square:hover{
+            border: 3px solid gray;
+            box-shadow: 10px  10px rgba(128, 0, 128, 0.227);
         }
         #rectangle{
             position: relative;
             width: 300px;
             height: 200px;
             margin: 0 auto;
-            background-color: blue;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 20%;  
+
+
+        }
+        #rectangle:hover{
+            border: 3px solid rgba(128, 0, 128, 0.33);
+            animation: 0.5 duration timing-function delay iteration-count direction fill-mode;
+            box-shadow: 10px  10px rgba(128, 0, 128, 0.227);
+
         }
     </style>
 </head>
@@ -28,6 +46,8 @@
     <div id="rectangle">
         <div id="square"></div>
     </div>
+
+    <p></p>
     <script src="propagation.js"></script>
 </body>
 </html>
