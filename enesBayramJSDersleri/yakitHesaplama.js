@@ -10,12 +10,12 @@ const yakitMetni = "1-Dizel" + yenisatir + "2-Benzin" + yenisatir
 let yakitTipi = prompt(yakitMetni);
 
 
-let yakitLiteresi = Number(prompt("yakıt litresi giriniz"));
+let yakitLitresi = Number(prompt("yakıt litresi giriniz"));
 let bakiye        = Number(prompt("bakiyenizi giriniz"));
 
 if(yakitTipi=="1"){
     //dizel
-    let odenecekTutar = dizel*yakitLiteresi;
+    let odenecekTutar = dizel*yakitLitresi;
 
     if(odenecekTutar<bakiye){
         alert( "yakıt alma işleminiz başarılı" + yenisatir + "kalan bakiyeniz:" + bakiye);
@@ -24,7 +24,7 @@ if(yakitTipi=="1"){
     }
 }else if(yakitTipi=="2"){
     //benzin
-    let odenecekTutar = benzin*yakitLiteresi;
+    let odenecekTutar = benzin*yakitLitresi;
     if(odenecekTutar<bakiye){
         alert( "yakıt alma işleminiz başarılı" + yenisatir + "kalan bakiyeniz:" + bakiye);
     }else{
@@ -32,7 +32,7 @@ if(yakitTipi=="1"){
     }
 }else if(yakitTipi=="3"){
     //lpg
-    let odenecekTutar = lpg*yakitLiteresi;
+    let odenecekTutar = lpg*yakitLitresi;
     if(odenecekTutar<bakiye){
         alert( "yakıt alma işleminiz başarılı" + yenisatir + "kalan bakiyeniz:" + bakiye);
     }else{
