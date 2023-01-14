@@ -10,10 +10,12 @@ const yakitMetni = "1-Dizel" + yenisatir + "2-Benzin" + yenisatir
 let yakitTipi = prompt(yakitMetni);
 
 
+if(yakitTipi== "1" || yakitTipi== "2" || yakitTipi== "3"){
+
 let yakitLitresi = Number(prompt("yakıt litresi giriniz"));
 let bakiye        = Number(prompt("bakiyenizi giriniz"));
 
-if(yakitTipi=="1"){
+   if(yakitTipi=="1"){
     //dizel
     let odenecekTutar = dizel*yakitLitresi;
 
@@ -38,6 +40,7 @@ if(yakitTipi=="1"){
     }else{
         alert( "bakiyeniz yeterli değil" + yenisatir + "ödenecek tutar" + odenecekTutar + yenisatir + "bakiyeniz:" + bakiye + "eksik tutar :" + (odenecekTutar-bakiye));
     }
+} 
 }else{
     alert("lütfen geçerli bir giriş yapınız");
 }
